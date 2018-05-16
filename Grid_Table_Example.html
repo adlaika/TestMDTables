@@ -1,0 +1,68 @@
+<h1 id="multiline_table">Multiline_Table</h1>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 20%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">CHANNEL PARAMETER VALUE</th>
+<th style="text-align: left;">ELIGIBLE FOR CJ COMMISSION</th>
+<th style="text-align: left;">WHEN TO USE IT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">CJ</td>
+<td style="text-align: left;">YES</td>
+<td style="text-align: left;">When the customer’s last click was from a CJ affiliate link</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DIRECT</td>
+<td style="text-align: left;">YES</td>
+<td style="text-align: left;"><p>When the customer navigated directly to the advertiser’s website</p>
+<aside class="notice">
+Important: Do not overwrite other channels with ‘direct’. If there is a click for another marketing channel before a user navigates directly to the site, the ‘channel’ parameter must reflect that previous click.
+</aside></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AFFILIATE_OTHER</td>
+<td style="text-align: left;">NO</td>
+<td style="text-align: left;">When the customer’s last click was from an affiliate channel other than CJ</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DISPLAY</td>
+<td style="text-align: left;">NO</td>
+<td style="text-align: left;">When the customer’s last click was from a display campaign</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOCIAL</td>
+<td style="text-align: left;">NO</td>
+<td style="text-align: left;">When the customer’s last click was from a social media campaign</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SEARCH</td>
+<td style="text-align: left;">NO</td>
+<td style="text-align: left;"><p>When the customer’s last click was from a search campaign</p>
+<ul>
+<li>This is a test bullet</li>
+<li>This is another bullet</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EMAIL</td>
+<td style="text-align: left;">NO</td>
+<td style="text-align: left;">When the customer’s last click was from an email campaign</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">OTHER</td>
+<td style="text-align: left;">NO</td>
+<td style="text-align: left;">When the customer’s last click was from a campaign not defined by the values above</td>
+</tr>
+</tbody>
+</table>
+<h2 id="notes">Notes</h2>
+<p>The row of =s separates the header from the table body, and can be omitted for a headerless table. The cells of grid tables may contain arbitrary block elements (multiple paragraphs, code blocks, lists, etc.). Cells that span multiple columns or rows are not supported. Grid tables can be created easily using <a href="http://table.sourceforge.net/">Emacs table mode</a>.</p>
+<p>Alignments can be specified as with pipe tables, by putting colons at the boundaries of the separator line after the header.</p>
+<p>For headerless tables, the colons go on the top line instead.</p>

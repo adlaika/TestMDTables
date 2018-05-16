@@ -1,0 +1,28 @@
+<h1 id="multiline_table">Multiline_Table</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">CHANNEL PARAMETER VALUE ELIGIBLE FOR CJ COMMISSION WHEN TO USE IT</td>
+</tr>
+</tbody>
+</table>
+<p>CJ YES When the customer’s last click was from a CJ affiliate link</p>
+DIRECT YES When the customer navigated directly to the advertiser’s website
+<aside class="notice">
+Important: Do not overwrite other channels with ‘direct’. If there is a click for another marketing channel before a user navigates directly to the site, the ‘channel’ parameter must reflect that previous click.
+</aside>
+<p>AFFILIATE_OTHER NO When the customer’s last click was from an affiliate channel other than CJ</p>
+<p>DISPLAY NO When the customer’s last click was from a display campaign</p>
+<p>SOCIAL NO When the customer’s last click was from a social media campaign</p>
+<p>SEARCH NO When the customer’s last click was from a search campaign * This is a test bullet * This is another bullet</p>
+<p>EMAIL NO When the customer’s last click was from an email campaign</p>
+<h2 id="other-no-when-the-customers-last-click-was-from-a-campaign-not-defined-by-the-values-above">OTHER NO When the customer’s last click was from a campaign not defined by the values above</h2>
+<h2 id="notes">Notes</h2>
+<p>Multiline tables allow headers and table rows to span multiple lines of text (but cells that span multiple columns or rows of the table are not supported).</p>
+<p>These work like simple tables, but with the following differences:</p>
+<ul>
+<li>They must begin with a row of dashes, before the header text (unless the headers are omitted).</li>
+<li>They must end with a row of dashes, then a blank line.</li>
+<li>The rows must be separated by blank lines.</li>
+</ul>
+<p>In multiline tables, the table parser pays attention to the widths of the columns, and the writers try to reproduce these relative widths in the output. So, if you find that one of the columns is too narrow in the output, try widening it in the Markdown source.</p>
