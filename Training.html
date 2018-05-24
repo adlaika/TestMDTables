@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 boilerplate – all you really need…</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  <style>
+    table, thead, tbody, th, tr, td { padding: 5px; border-style: solid; border-width: thin;}
+    body { margin: 100px; padding: 10px;}
+    .notice { padding: 1em; text-shadow(0 1px lighten(#8fbcd4, 15%)); margin-top: 1.5em; margin-bottom: 1.5em; background: #8fbcd4; line-height: 1.6}
+    .success { padding: 1em; text-shadow(0 1px lighten(#6ac174, 15%)); margin-top: 1.5em; margin-bottom: 1.5em; background: #6ac174; line-height: 1.6}
+    .warning { padding: 1em; text-shadow(0 1px lighten(#c97a7e, 15%)); margin-top: 1.5em; margin-bottom: 1.5em; background: #c97a7e; line-height: 1.6}
+
+  </style>
+</head>
+<body>
+<h1 id="header---h1">Header - H1</h1>
+<h2 id="header---h2">Header - H2</h2>
+<h3 id="header---h3">Header - H3</h3>
+<h4 id="header---h4">Header - H4</h4>
+<ul>
+<li>unordered / bulleted list item 1</li>
+<li>unordered / bulleted list item 2</li>
+<li><p>unordered / bulleted list item 3</p></li>
+<li>unordered / bulleted list item 1</li>
+<li>unordered / bulleted list item 2</li>
+<li><p>unordered / bulleted list item 3</p></li>
+<li>unordered / bulleted list item 1</li>
+<li>unordered / bulleted list item 2</li>
+<li><p>unordered / bulleted list item 3</p></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>ordered list item 1</li>
+<li>ordered list item 2</li>
+<li>ordered list item 3</li>
+</ol>
+<p>Use asterisks (*) or underscores (_) to make things <em>italics</em> or <strong>bold</strong> (alternatively <em>italics</em> or <strong>bold</strong>.)</p>
+<p>Combine asterisks(*) and underscores (_) to combine <strong>bold with <em>italics</em></strong>.</p>
+<p>Use two tildes (~) for <del>strikethrough</del> if needed.</p>
+<p><a href="URL">Hyperlink Name</a></p>
+<div class="figure">
+<img src="image_URL" title="image_title_text" alt="image_alt_text" />
+<p class="caption">image_alt_text</p>
+</div>
+<p>Inline code has backticks (<code>) around it such as</code># some code would go here`</p>
+<p>Blocks of code are formatted like the following:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span class="kw">var</span> s <span class="op">=</span> <span class="st">&quot;JavaScript syntax highlighting&quot;</span><span class="op">;</span>
+<span class="at">alert</span>(s)<span class="op">;</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">s <span class="op">=</span> <span class="st">&quot;Python syntax highlighting&quot;</span>
+<span class="bu">print</span> s</code></pre></div>
+<pre><code>No language indicated, so no syntax highlighting.
+But let&#39;s throw in a &lt;b&gt;tag&lt;/b&gt;.</code></pre>
+<p>Horizontal Rule = three hyphens (---)</p>
+<p>We will be using grid tables.</p>
+<table style="width:97%;">
+<colgroup>
+<col width="18%" />
+<col width="19%" />
+<col width="59%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">CHANNEL PARAMETER VALUE</th>
+<th align="left">ELIGIBLE FOR CJ COMMISSION</th>
+<th align="left">WHEN TO USE IT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><p>CJ</p></td>
+<td align="left"><p>YES</p></td>
+<td align="left"><p>When the customer's last click was from a CJ affiliate link</p></td>
+</tr>
+<tr class="even">
+<td align="left"><p>DIRECT</p></td>
+<td align="left"><p>YES</p></td>
+<td align="left"><p>When the customer navigated directly to the advertiser's website</p>
+<aside class="notice">
+Important: Do not overwrite other channels with 'direct'. If there is a click for another marketing channel before a user navigates directly to the site, the 'channel' parameter must reflect that previous click.
+</aside></td>
+</tr>
+<tr class="odd">
+<td align="left"><p>AFFILIATE<br />
+_OTHER</p></td>
+<td align="left"><p>NO</p></td>
+<td align="left"><p>When the customer's last click was from an affiliate channel other than CJ</p></td>
+</tr>
+<tr class="even">
+<td align="left"><p>DISPLAY</p></td>
+<td align="left"><p>NO</p></td>
+<td align="left"><p>When the customer's last click was from a display campaign</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><p>SOCIAL</p></td>
+<td align="left"><p>NO</p></td>
+<td align="left"><p>When the customer's last click was from a social media campaign</p></td>
+</tr>
+<tr class="even">
+<td align="left"><p>SEARCH</p></td>
+<td align="left"><p>NO</p></td>
+<td align="left"><p>When the customer's last click was from a search campaign</p>
+<ul>
+<li>This is a test bullet</li>
+<li>This is another bullet</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td align="left"><p>EMAIL</p></td>
+<td align="left"><p>NO</p></td>
+<td align="left"><p>When the customer's last click was from an email campaign</p></td>
+</tr>
+<tr class="even">
+<td align="left"><p>OTHER</p></td>
+<td align="left"><p>NO</p></td>
+<td align="left"><p>When the customer's last click was from a campaign not defined by the values above</p></td>
+</tr>
+</tbody>
+</table>
+<p>notice / informational section (span/div)</p>
+<aside class="notice">
+Notice Text
+</aside>
+<p>Success / tip section (span/div)</p>
+<aside class="success">
+Success Text
+</aside>
+<p>warning / error section (span/div)</p>
+<aside class="warning">
+Warning Text
+</aside>
+<hr />
+</body>
+</html>
